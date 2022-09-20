@@ -51,10 +51,22 @@ button:hover {
 }
 
 .about__sun-image {
+    transform: rotate(90deg);
     width: 100px;
     height: 100px;
+    animation: rotation 10s infinite linear;
+    position: absolute;
 }
 
+@keyframes rotation {
+    0% {
+      transform: none;
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
 .about {
     display: flex;
     align-items: center;
@@ -194,3 +206,4 @@ footer {
     text-align: center;
     opacity: 0.5;
 }
+
