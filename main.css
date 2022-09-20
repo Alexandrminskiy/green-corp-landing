@@ -20,7 +20,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-  }
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
 
 .header__logo {
     height: 30px;
@@ -207,3 +211,74 @@ footer {
     opacity: 0.5;
 }
 
+@media (max-width: 720px) {
+    header {
+        padding: 10px;
+    }
+  
+    header a {
+        margin-right: 10px;
+    }
+  
+    .form {
+        padding: 50px 10px;
+    }
+  
+    footer {
+        padding: 50px 10px;
+    }
+    .header__logo{
+      height: 20px;
+    }
+   
+    .about{
+      flex-direction: column-reverse;
+      padding: 50px 10px;
+    }
+   
+    .about h1, .form h1{
+      font-size: 36px;  
+      line-height: 40px;
+  
+    }.about__image{
+      width: 280px;
+  
+    }
+    .about__sun-image{
+      height: 75px;
+      width: 75px;
+    }
+  
+    .footer__container{
+      flex-direction: column;
+    }
+  
+    .features{
+      padding: 50px 10px;
+    }
+  
+    .cards{
+      grid-template-columns: auto;
+    }
+  }
+  
+  @media (max-width: 1020px) {
+    .about{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .about h1{
+      font-size: 36px;  
+      line-height: 40px;
+    }
+  
+    .about__image{
+      width: 280px;
+    }
+  
+    .about__sun-image{
+      height: 75px;
+      width: 75px;
+    }
+  
+  }
