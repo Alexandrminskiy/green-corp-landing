@@ -101,7 +101,7 @@ let myObj = new Object();
 let myObj = {};
 
 let myObj = {
-  key1: 'first key',
+  key1: 'first key'
   key2: 222,
   myThirdKey: true,
   "key with spaces": {},
