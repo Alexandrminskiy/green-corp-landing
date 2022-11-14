@@ -115,7 +115,7 @@ console.log(myObj.key1); // 'first key'
 
 console.log(`Имя: "${obj.name}" Фамилия: '${obj.last_name}' Возраст: ${obj.age}`);
 
-Тип переменной
+
 console.log(typeof 12); // number
 
 https://techniquei.github.io/green-corp-landing/
