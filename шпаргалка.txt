@@ -100,14 +100,6 @@ console.log((0.1 + 0.2).toFixed(1) === "0.3") // true
 let myObj = new Object();
 let myObj = {};
 
-let myObj = {
-  key1: 'first key'
-  key2: 222,
-  myThirdKey: true,
-  "key with spaces": {},
-  12: null
-};
-
 Доступ к значениям свойств осуществляется двумя способами:
 1. Через точку:
 console.log(myObj.key1); // 'first key'
